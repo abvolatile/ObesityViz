@@ -1,6 +1,8 @@
 # ObesityViz
 Visualization of the global prevalence of obesity between 2003 and 2013
 
+See it here: https://abvolatile.github.io/ObesityViz/
+
 Original data from IHME Global Burden of Disease 2013 Obesity Prevalence 1990-2013 study 
 (http://ghdx.healthdata.org/record/global-burden-disease-study-2013-gbd-2013-obesity-prevalence-1990-2013)
 
