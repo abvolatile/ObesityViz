@@ -12,3 +12,6 @@ The globe can be rotated by clicking and dragging on the water (or by selecting 
 
 A country can be selected from the globe or from the dropdown list, which updates the chart with the selected country's
 average obesity for males vs females by age group (for the current year selected).
+
+
+(currently there's an issue with the map not having data for a few countries - so if you click on one of these (colored black) there will be no data in the chart)
