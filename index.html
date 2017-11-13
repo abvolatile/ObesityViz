@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global Prevalence of Obesity</title>
+    <script type="text/javascript" src="js/vendor/d3.min.js"></script>
+    <script type="text/javascript" src="js/vendor/d3-scale-chromatic.min.js"></script>
+    <script type="text/javascript" src="js/vendor/topojson.min.js"></script>
+    <script type="text/javascript" src="js/vendor/d3-legend.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Patua+One|Raleway:400,700" rel="stylesheet">  -->
+  </head>
+  <body>
+
+  <header>
+    <h1>Prevalence of Obesity by Country</h1>
+    <select name="countries" id="countryList"></select>
+  </header>
+
+  <main>
+    <div id="globeDiv"></div>
+    <div id="legendDiv">
+      <h3>Globe Legend:</h3>
+    </div>
+    <div id="chartDiv">
+      <select name="years" id="yearList"></select>
+      <h2 id="chartTitle"></h2>
+    </div>
+  </main>
+
+  <footer>
+    <h4>Data from IHME Global Burden of Disease 2013 Obesity Prevalence 1990-2013 study <a href="http://ghdx.healthdata.org/record/global-burden-disease-study-2013-gbd-2013-obesity-prevalence-1990-2013">HERE</a></h4>
+    <p>&copy; <a href="http://www.anniebowman.com">anniebowman.com</a></p>
+  </footer>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/chart.js"></script>
+  <script type="text/javascript" src="js/chart-events.js"></script>
+  <script type="text/javascript" src="js/globe.js"></script>
+  </body>
+</html>
